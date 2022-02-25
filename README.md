@@ -1,3 +1,4 @@
 # Book_Author_Management
 
--This is a book managing c# console app which contains a Rack to store book and author details with max capacity of 10 
+This is a book managing c# console app.
+It contains a Rack to store book and author details with max capacity of 10 
