@@ -247,12 +247,12 @@ namespace BookAuthorManagement
                         bm.AddBook();
                         break;
                     case 2:
-                        Console.Write("Enter ISBN of book");
+                        Console.Write("Enter ISBN of book : ");
                         string isbn = Console.ReadLine();
                         Console.WriteLine(bm.SearchBook(isbn));
                         break;
                     case 3:
-                        Console.Write("Enter ISBN of book");
+                        Console.Write("Enter ISBN of book : ");
                         string ib = Console.ReadLine();
                         bm.UpdateBookDetails(ib);
                         break;
@@ -261,6 +261,11 @@ namespace BookAuthorManagement
                         break;
                     case 5:
                         bm.ViewAuthors();
+                        break;
+                    case 6:
+                        break;
+                    default:
+                        Console.WriteLine("Enter option from 1 to 6");
                         break;
                 }
             } while(a!=6);
